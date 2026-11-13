@@ -10,15 +10,15 @@ public class CarService {
         String img = null;
 
         if (brand.contains("Volvo")) {
-            img = "blåvolvostationcar.jpg";
+            img = "blaavolvostationcar.jpg";
         } else if (brand.contains("VW")){
             if (colour.contains("grøn") || colour.contains("green")) {
-                img = "GrønVWpolo.jpg";
+                img = "GroenVWpolo.jpg";
             } else {
                 img = "GulVWBobbel.jpg";
             }
         } else if (brand.contains("Western Star")) {
-            img = "WesternstarRødTruck.jpg";
+            img = "WesternstarRoedTruck.jpg";
         } else {
             img = "generic.jpg";
         }
