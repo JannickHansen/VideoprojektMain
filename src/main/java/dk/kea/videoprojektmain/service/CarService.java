@@ -18,7 +18,7 @@ public class CarService {
                 img = "GulVWBobbel.jpg";
             }
         } else if (brand.contains("Western Star")) {
-            img = "WesternstarRoedTruck.jpg";
+            img = "WSRT.jpg";
         } else {
             img = "generic.jpg";
         }
